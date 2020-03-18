@@ -31,7 +31,7 @@ public class MainThread {
 		{
 		case 1:
 			int n;
-			System.out.println("nhap so bai viet can them:");
+			System.out.println("Nhập số bài viết cần thêm:");
 			n = sc.nextInt();
 			for (int i = 0; i < n; i++) {
 				Article bv=new Article();
